@@ -21,6 +21,16 @@ html {
   height: 15vh; /* Altura fija para el header */
 }
 
+#header h1 {
+  font-size: clamp(16px, 5vw, 24px); /* Tamaño mínimo, ideal y máximo */
+  margin: 0;
+  padding: 0.5rem 0;
+  text-align: justify;
+  text-align-last: center; /* Centra la última línea */
+  hyphens: auto; /* Permite separación silábica */
+  width: 100%;
+}
+
 /* Contenedor del Mapa */
 #map-container {
   width: 100%;
@@ -45,3 +55,14 @@ html {
 #footer a:hover {
   text-decoration: underline;
 }
+
+#footer p {
+  font-size: clamp(12px, 5vw, 16px); /* Tamaño mínimo, ideal y máximo */
+  margin: 0;
+  padding: 0.5rem 0;
+  text-align: justify;
+  text-align-last: center; /* Centra la última línea */
+  hyphens: auto; /* Permite separación silábica */
+  width: 100%;
+}
+
